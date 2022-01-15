@@ -43,6 +43,9 @@ nav ul{
     font-size: 16px;
     font-weight: 700;
 }
+.menu li:hover a{
+    color: #e6005c;
+}
 /*-------------------
 banner part css
 -------------------*/
@@ -143,6 +146,10 @@ product-collection part css
     height: 100%;
     width: 100%;
 }
+.product-image:hover{
+    transform: scale(1.08);
+    transition: transform 0.8s ease-in-out;
+}
 .product-details{
     margin-top: 20px;
 }
@@ -225,6 +232,10 @@ support part css
     color: white;
     border-radius: 20px;
 }
+.support-icon:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
+}
 .support-info h2{
     font-weight: 500;
     font-size: 20px;
@@ -252,7 +263,6 @@ support part css
 }
 /*---------------------------------Footer---------------------------*/
 footer{
-    max-width: 1200px;
     background-color: #000033;
     color: white;
 }
