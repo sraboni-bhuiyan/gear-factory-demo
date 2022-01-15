@@ -283,7 +283,7 @@ footer{
 /*----------------
 Mobile version
 ---------------*/
-@media only screen and (min-width:0px) and (max-width:576px) {
+@media only screen and (max-width:670px) {
     body{
         width: 100%;
     }
@@ -343,7 +343,7 @@ Mobile version
 /*----------------
 Mobile version
 ---------------*/
-@media only screen and (min-width:577px) and (max-width:768px) {
+@media only screen and (min-width:671px) and (max-width:990px) {
     body{
         width: 100%;
     }
